@@ -1,6 +1,6 @@
 {
   "name": "git-ignore-cmd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ignoring files and directories easier via the command line.",
   "main": "index.js",
   "bin": {
