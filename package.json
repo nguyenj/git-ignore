@@ -17,7 +17,7 @@
   ],
   "author": "John Nguyen <hello@jnguyen.me> (jnguyen.me)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^2.3.2",
     "commander": "^2.15.1",
     "shelljs": "^0.8.1"
