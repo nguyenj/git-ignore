@@ -1,0 +1,25 @@
+{
+  "name": "git-ignore",
+  "version": "0.1.0",
+  "description": "Ignoring files and directories easier via the command line.",
+  "main": "index.js",
+  "bin": {
+    "git-ignore": "bin/ignore.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "ignore",
+    "files",
+    "directories"
+  ],
+  "author": "John Nguyen <hello@jnguyen.me> (jnguyen.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "shelljs": "^0.8.1"
+  }
+}
