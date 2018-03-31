@@ -1,5 +1,5 @@
 {
-  "name": "git-ignore",
+  "name": "git-ignore-cmd",
   "version": "0.1.0",
   "description": "Ignoring files and directories easier via the command line.",
   "main": "index.js",
