@@ -24,8 +24,7 @@ if (!process.argv.slice(2).length) {
 
 module.exports = program
 	.version('0.1.0')
-	.command('git')
-	.usage('ignore <pattern|filename|directory>')
+	.usage('<pattern|filename|directory>')
 	.arguments('<pattern...>')
 	.action((pattern) => {
 		if (!shell.which('git')) {
