@@ -13,10 +13,10 @@ const getProjectRootPath = function getProjectRootPath () {
 		.stdout
 		.trim()
 }
+
 const getGitIgnoreFilepath = function getGitIgnoreFilepath (rootPath) {
 	return path.join(rootPath, '.gitignore')
 }
-
 
 if (!process.argv.slice(2).length) {
 		program.outputHelp(makeRed)
@@ -24,6 +24,8 @@ if (!process.argv.slice(2).length) {
 
 module.exports = program
 	.version('0.1.0')
+	.command('git')
+	.usage('ignore <pattern|filename|directory>')
 	.arguments('<pattern...>')
 	.action((pattern) => {
 		if (!shell.which('git')) {
